@@ -1,10 +1,21 @@
 <template>
-  <div class="frame"></div>
+  <div class="frame">
+    <button @click="toLog">去登陆</button>
+  </div>
 </template>
 
 <script>
 export default {
+  data () {
+    return {
 
+    }
+  },
+  methods: {
+    toLog () {
+      this.$router.push('/entrance')
+    }
+  }
 }
 </script>
 

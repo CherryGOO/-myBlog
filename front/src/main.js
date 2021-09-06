@@ -4,7 +4,13 @@ import router from './router'
 import store from './store'
 
 // 引入normalize
-import 'normalize.css'
+// import 'normalize.css'
+
+// 引入重置样式表
+import './common/stylesheets/main.less'
+
+// 引入element-ui
+import './common/element'
 
 Vue.config.productionTip = false
 
